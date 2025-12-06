@@ -8,12 +8,15 @@ const Header = () => {
 
   const navigation = [
     { name: "Home", href: "/" },
+    { name: "Blog", href: "/blog" },
+    { name: "Supported Platform", href: "/platform" },
     { name: "Tools", href: "/tools" },
     { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
-    <header className="bg-white shadow-sm border-b">
+    <header className="bg-[#726d6d] shadow-sm p-5">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -30,7 +33,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  className={`px-3 py-2 rounded-md text-lg font-medium transition-colors ${
                     location.pathname === item.href
                       ? "text-primary-600 bg-primary-50"
                       : "text-gray-600 hover:text-primary-600"
