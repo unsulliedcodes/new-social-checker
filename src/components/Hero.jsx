@@ -29,7 +29,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="bg-[yellow]">
+    <div className="bg-[yell]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
         <div className="text-center">
           <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
@@ -43,7 +43,7 @@ const Hero = () => {
             upcoming platforms.
           </p>
 
-          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Link
               to="/tools"
               className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 transition-colors shadow-sm"
@@ -57,7 +57,7 @@ const Hero = () => {
             >
               Learn More
             </Link>
-          </div> */}
+          </div>
 
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
